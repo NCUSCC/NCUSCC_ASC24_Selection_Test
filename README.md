@@ -1,6 +1,6 @@
 # NCUSCC_ASC24_Selection_Test
 
-ASC24超算竞赛南昌大学参赛队员选拔试题
+ASC24超算竞赛南昌大学参赛队员选拔试题，报名链接：https://forms.gle/zcQrCWvdEF9fQYkk8。
 
 ## 题目背景
 
