@@ -26,7 +26,7 @@ ASC24超算竞赛南昌大学参赛队员选拔试题，报名链接：https://f
 1. HPL(30分)
 2. OSPRay(30分)
 3. GRPMACS(30分)
-4. Your Determination Challenge(10)
+4. Your Determination Challenge(10分)
 
 ## 提交要求
 1. 英文报告必须采用LaTeX撰写（建议使用Overleaf云写作平台，本地不用配置LaTeX写作环境），最后只接收PDF格式的报告，代码及其他支撑材料压缩一并提交。（**代码可以提交Github链接，并且推荐大家使用Github进行代码存储，以防云环境出现问题**）
