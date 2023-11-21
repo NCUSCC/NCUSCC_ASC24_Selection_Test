@@ -1,0 +1,469 @@
+{
+    "world": {
+        "name": "world",
+        "type": "WORLD",
+        "subType": "world",
+        "children": [
+            {
+                "name": "dynamicScene",
+                "type": "PARAMETER",
+                "subType": "bool",
+                "sgOnly": false,
+                "value": false
+            },
+            {
+                "name": "compactMode",
+                "type": "PARAMETER",
+                "subType": "bool",
+                "sgOnly": false,
+                "value": false
+            },
+            {
+                "name": "robustMode",
+                "type": "PARAMETER",
+                "subType": "bool",
+                "sgOnly": false,
+                "value": false
+            },
+            {
+                "name": "materialref",
+                "type": "MATERIAL_REFERENCE",
+                "subType": "reference_to_material"
+            },
+            {
+                "name": "intelCloudLib_dense.0.L_importer",
+                "type": "IMPORTER",
+                "subType": "importer_vdb",
+                "filename": "/apps/data/intelCloudLib_dense.0.L.vdb",
+                "children": [
+                    {
+                        "name": "intelCloudLib_dense.0.L_rootXfm",
+                        "type": "TRANSFORM",
+                        "subType": "transform",
+                        "value": {
+                            "linear": {
+                                "x": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "y": [
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                "z": [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            "affine": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        "children": [
+                            {
+                                "name": "translation",
+                                "type": "PARAMETER",
+                                "subType": "vec3f",
+                                "sgOnly": false,
+                                "value": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "name": "rotation",
+                                "type": "PARAMETER",
+                                "subType": "quaternionf",
+                                "sgOnly": false,
+                                "value": {
+                                    "r": 1.0,
+                                    "i": 0.0,
+                                    "j": 0.0,
+                                    "k": 0.0
+                                }
+                            },
+                            {
+                                "name": "scale",
+                                "type": "PARAMETER",
+                                "subType": "vec3f",
+                                "sgOnly": false,
+                                "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "name": "visible",
+                                "type": "PARAMETER",
+                                "subType": "bool",
+                                "sgOnly": true,
+                                "value": true
+                            },
+                            {
+                                "name": "dynamicScene",
+                                "type": "PARAMETER",
+                                "subType": "bool",
+                                "sgOnly": false,
+                                "value": false
+                            },
+                            {
+                                "name": "compactMode",
+                                "type": "PARAMETER",
+                                "subType": "bool",
+                                "sgOnly": false,
+                                "value": false
+                            },
+                            {
+                                "name": "robustMode",
+                                "type": "PARAMETER",
+                                "subType": "bool",
+                                "sgOnly": false,
+                                "value": false
+                            },
+                            {
+                                "name": "intelCloudLib_dense.0.L_volume",
+                                "type": "VOLUME",
+                                "subType": "volume_vdb",
+                                "children": [
+                                    {
+                                        "name": "enable",
+                                        "type": "PARAMETER",
+                                        "subType": "bool",
+                                        "sgOnly": true,
+                                        "value": true
+                                    },
+                                    {
+                                        "name": "filter",
+                                        "type": "PARAMETER",
+                                        "subType": "int",
+                                        "sgOnly": false,
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "densityScale",
+                                        "type": "PARAMETER",
+                                        "subType": "float",
+                                        "sgOnly": false,
+                                        "value": 1.0,
+                                        "minMax": [
+                                            0.0,
+                                            100.0
+                                        ]
+                                    },
+                                    {
+                                        "name": "anisotropy",
+                                        "type": "PARAMETER",
+                                        "subType": "float",
+                                        "sgOnly": false,
+                                        "value": 0.0,
+                                        "minMax": [
+                                            -1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    {
+                                        "name": "value",
+                                        "type": "PARAMETER",
+                                        "subType": "range1f",
+                                        "sgOnly": true,
+                                        "value": [
+                                            -0.16526225209236145,
+                                            0.655038058757782
+                                        ]
+                                    },
+                                    {
+                                        "name": "transferFunction",
+                                        "type": "TRANSFER_FUNCTION",
+                                        "subType": "transfer_function_turbo",
+                                        "children": [
+                                            {
+                                                "name": "value",
+                                                "type": "PARAMETER",
+                                                "subType": "range1f",
+                                                "sgOnly": false,
+                                                "value": [
+                                                    -0.16526225209236145,
+                                                    0.655038058757782
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "camera": {
+        "cameraIdx": 0,
+        "cameraToWorld": {
+            "linear": {
+                "x": [
+                    0.7474003434181213,
+                    -0.021886585280299187,
+                    -0.6648634076118469
+                ],
+                "y": [
+                    -0.001846075407229364,
+                    0.9999510049819946,
+                    -0.03499255329370499
+                ],
+                "z": [
+                    0.6652209758758545,
+                    0.02736538089811802,
+                    0.7469016313552856
+                ]
+            },
+            "affine": [
+                190.32232666015625,
+                63.97651290893555,
+                192.47296142578125
+            ]
+        }
+    },
+    "lightsManager": {
+        "name": "lights",
+        "type": "LIGHTS",
+        "subType": "lights",
+        "children": [
+            {
+                "name": "sunSky1",
+                "type": "LIGHT",
+                "subType": "sunSky",
+                "children": [
+                    {
+                        "name": "visible",
+                        "type": "PARAMETER",
+                        "subType": "bool",
+                        "sgOnly": false,
+                        "value": true
+                    },
+                    {
+                        "name": "color",
+                        "type": "PARAMETER",
+                        "subType": "rgb",
+                        "sgOnly": false,
+                        "value": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "name": "intensity",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": false,
+                        "value": 0.07699999958276749,
+                        "minMax": [
+                            0.0,
+                            0.5
+                        ]
+                    },
+                    {
+                        "name": "enable",
+                        "type": "PARAMETER",
+                        "subType": "bool",
+                        "sgOnly": true,
+                        "value": true
+                    },
+                    {
+                        "name": "intensityQuantity",
+                        "type": "PARAMETER",
+                        "subType": "uchar",
+                        "sgOnly": false,
+                        "value": 4,
+                        "minMax": [
+                            0,
+                            4
+                        ]
+                    },
+                    {
+                        "name": "type",
+                        "type": "PARAMETER",
+                        "subType": "string",
+                        "sgOnly": true,
+                        "value": "sunSky"
+                    },
+                    {
+                        "name": "up",
+                        "type": "PARAMETER",
+                        "subType": "vec3f",
+                        "sgOnly": false,
+                        "value": [
+                            0.0,
+                            1.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "name": "right",
+                        "type": "PARAMETER",
+                        "subType": "vec3f",
+                        "sgOnly": true,
+                        "value": [
+                            0.0,
+                            0.0,
+                            -1.0
+                        ]
+                    },
+                    {
+                        "name": "azimuth",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": true,
+                        "value": 0.0,
+                        "minMax": [
+                            0.0,
+                            360.0
+                        ]
+                    },
+                    {
+                        "name": "elevation",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": true,
+                        "value": 33.845001220703125,
+                        "minMax": [
+                            -90.0,
+                            90.0
+                        ]
+                    },
+                    {
+                        "name": "albedo",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": false,
+                        "value": 0.18000000715255737,
+                        "minMax": [
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "name": "turbidity",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": false,
+                        "value": 1.0119999647140503,
+                        "minMax": [
+                            0.0,
+                            10.0
+                        ]
+                    },
+                    {
+                        "name": "direction",
+                        "type": "PARAMETER",
+                        "subType": "vec3f",
+                        "sgOnly": false,
+                        "value": [
+                            -0.8305569887161255,
+                            -0.5569335222244263,
+                            0.0
+                        ]
+                    },
+                    {
+                        "name": "horizonExtension",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": false,
+                        "value": 0.4009999930858612,
+                        "minMax": [
+                            0.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "materialRegistry": {
+        "name": "baseMaterialRegistry",
+        "type": "GENERIC",
+        "subType": "materialRegistry",
+        "children": [
+            {
+                "name": "rType",
+                "type": "PARAMETER",
+                "subType": "string",
+                "sgOnly": true,
+                "value": "pathtracer"
+            },
+            {
+                "name": "sgDefault",
+                "type": "MATERIAL",
+                "subType": "obj",
+                "children": [
+                    {
+                        "name": "kd",
+                        "type": "PARAMETER",
+                        "subType": "rgb",
+                        "sgOnly": false,
+                        "value": [
+                            0.800000011920929,
+                            0.800000011920929,
+                            0.800000011920929
+                        ]
+                    },
+                    {
+                        "name": "ks",
+                        "type": "PARAMETER",
+                        "subType": "rgb",
+                        "sgOnly": false,
+                        "value": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "name": "ns",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": false,
+                        "value": 10.0,
+                        "minMax": [
+                            2.0,
+                            10000.0
+                        ]
+                    },
+                    {
+                        "name": "d",
+                        "type": "PARAMETER",
+                        "subType": "float",
+                        "sgOnly": false,
+                        "value": 1.0,
+                        "minMax": [
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "name": "tf",
+                        "type": "PARAMETER",
+                        "subType": "rgb",
+                        "sgOnly": false,
+                        "value": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "animation": {
+        "time": 0.0,
+        "shutter": 0.0
+    }
+}
